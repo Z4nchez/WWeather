@@ -1,0 +1,21 @@
+.StartPanel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.StartPanel img{
+    height: auto;
+    width: 50%;
+    margin-bottom: 80px;
+}
+.intro{
+    width: 60%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: rgb(0, 48, 45);
+    font-weight:bolder;
+    font-size: 1.2rem;
+}

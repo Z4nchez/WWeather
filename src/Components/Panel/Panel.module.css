@@ -1,0 +1,94 @@
+:root{
+    --margenW: 40px;
+    --margenH: 30px;
+    --full: 100%;
+}
+.Panel{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Super{
+    width: calc(var(--full) - 2 * (var(--margenW)));
+    height: calc(var(--full) - 2 * (var(--margenH)));
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.Panel2{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+}
+.SearchCont{
+    width: 100%;
+    height: 10%;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SearchModule{
+    width: calc(var(--full) - 2 * (20px));
+    height: calc(var(--full) - 2 * (20px));
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(101, 151, 128, 0.3);
+    overflow-x: hidden;
+    display: flex;
+}
+.Data0{
+    width: calc(var(--full) - 80px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Data0 input{
+    width: 95%;
+    height: 60%;
+    background-color: rgba(144, 175, 175, 0);
+    border: 1px solid rgba(101, 151, 128, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 48, 45);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+    font-family: 'Montserrat';
+}
+.Data1{
+    width: 80px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Data1:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.Data1 img{
+    width: auto;
+    height: 70%;
+    margin-bottom: 5%;
+    opacity: 0.6;
+}
+@media screen and (height < 640px) {
+    .SearchModule{
+        height: 16px;
+    }
+}
