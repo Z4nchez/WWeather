@@ -76,6 +76,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: all ease-in-out 0.4s;
 }
 .Data1:hover{
     background-color: rgba(0, 0, 0, 0.2);
