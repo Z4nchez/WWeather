@@ -13,8 +13,8 @@
 .Super{
     width: calc(var(--full) - 2 * (var(--margenW)));
     height: calc(var(--full) - 2 * (var(--margenH)));
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 6px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(56, 197, 155, 0.5);
+    border: 6px solid rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.1);
     
 }
 .SearchCont{
@@ -42,8 +42,8 @@
     width: calc(var(--full) - 2 * (20px));
     height: calc(var(--full) - 2 * (20px));
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(101, 151, 128, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(101, 151, 128, 0.9);
     overflow-x: hidden;
     display: flex;
 }
@@ -62,7 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 48, 45);
+    color: rgb(0, 31, 29);
     text-align: center;
     border-radius: 20px;
     opacity: 0.8;

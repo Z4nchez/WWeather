@@ -1,0 +1,14 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.Background0{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(23, 75, 63);
+  background: linear-gradient(135deg, rgb(138, 204, 176) 0%, rgb(72, 218, 133) 50%, rgb(80, 166, 185) 100%);
+  background-size: cover;
+}
